@@ -1,0 +1,240 @@
+html
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+body {
+    width: 1260px;
+    height: 940px;
+    margin: 0;
+    padding: 0;
+
+}
+.container-area
+{
+    width: 1264px;
+    height:880px ;
+    padding: 0 160 0 160;
+    background-color:#EDF2C5;
+}
+.header
+{
+    padding-top:53px;
+    display: flex;
+    align-self: flex-end;
+}
+.header-title
+{
+    width: 271px;
+    padding:0;
+    height: 42px;
+    font-size: 44px;
+    font-family: "Arial Black", sans-serif;
+    color: #778A50;
+    margin: 0 468 8 0;
+    line-height: 65%;
+}
+ .Social
+{
+    width: 25px;
+    height: 25px;
+    margin-right:10px;
+    margin-bottom: 17px;
+    align-self: flex-end;
+}
+.line
+{
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+    margin-bottom: 17px;
+    align-self: flex-end;
+}
+.header-box-login
+{
+    width: 60px;
+    height: 25px;
+    font-size:12px;
+    font-family: "Arial Black";
+    color: #778A50;
+    background-color: #EDF2C5;
+    border:1px solid #778A50;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-bottom: 17px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+.header-box-join
+{
+    width: 50px;
+    height: 25px;
+    font-size:12px;    
+    font-family: "Arial Black";
+    color: #778A50;
+    background-color: #EDF2C5;
+    border:1px solid #778A50;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 10px;    
+    margin-bottom: 17px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+.menu
+{
+    width: 940px;
+    height: 44px;
+    background-color: #778A50;
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-right: 317px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+/* .menu-list
+{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 317px;
+
+     padding-top:16px;
+    padding-bottom: 16px; 
+     line-height: 50%; 
+}
+li{
+    padding: 0;
+    margin: 0;
+}
+.menu-list-item
+{
+        padding-top:16px;
+    padding-bottom: 16px;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+} */
+.menu-list-item-link
+{
+    font-size: 16px;
+    font-family: "Arial Black",sans-serif;
+    color: #EDF2C5;
+    text-decoration: none;
+    margin-right:60px;
+    text-align: center;
+    align-items: center;
+}
+.pumpkin
+{
+    width: 940px;
+    height: 448px;
+    padding-bottom: 30px;
+}
+
+.section-Vegetables
+{
+    width: 445px;
+    height: 45px;
+    font-size: 16px;
+    font-family: "Arial Black";
+    color:#EDF2C5;
+    background-color: #778A50;
+    padding:15 30 15;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+.images
+{
+    height: 140px;
+    width: 140px;
+    display: flex;
+    vertical-align: middle;
+}
+.pepper,.carrot,.corn
+{
+    padding: 0;
+    margin-right:12px; 
+}
+.section-Contact
+{
+    width: 445px;
+    height: 45px;
+    display: flex;
+    font-size: 16px;
+    font-family: "Arial Black";
+    color: #EDF2C5;
+    background-color: #778A50;
+    padding: 17 30 16;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    align-items: center;
+}
+.article
+{
+    justify-content: space-between;
+    padding-bottom: 35px;
+    display: flex;
+}
+.contact
+{
+    font-size: 12px;
+    font-family: 'ArialMT Regular', sans-serif;
+    color:#7d7d7d;
+    line-height: 1.33;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.line-contact
+{
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+}
+.mail-phone
+{
+    font-size: 12px;
+    font-family: "ArialMT Regular",sans-serif;
+    line-height: 1.83;
+}
+.article-contact
+{
+    width: 445px;
+    height: 140px;
+    color:#7d7d7d;
+    background-color: #F7FBDA;
+    border-radius: 3px;
+    padding: 16 16 16;
+}
+.footer
+{
+    width: 1264px;
+    height: 60px;
+    background-color: #778a50;
+    padding: 24 479 25 479;
+    text-align: center;
+} 
+.footer-contact
+{
+    font-size: 12px;
+    font-family: "ArialMT Regular", sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
